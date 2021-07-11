@@ -20,7 +20,7 @@ import pe.itana.gaedemo.service.EmpleadoService;
 @RequestMapping("empleados")
 public class EmpleadoRest {
 	
-	public static final Logger logger = LoggerFactory.getLogger(EmpleadoRest.class)
+	public static final Logger logger = LoggerFactory.getLogger(EmpleadoRest.class);
 	
 	@Autowired
 	EmpleadoService empleadoService;
